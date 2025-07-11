@@ -10,7 +10,9 @@ namespace DotOcrAPI.Controllers
     [Route("api/[controller]")]
     public class OcrController : ControllerBase
     {
-        //
+        /// <summary>
+        /// 
+        /// </summary>
         private readonly GeminiOcrService _ocrService;
         private readonly ILogger<OcrController> _logger;
 
